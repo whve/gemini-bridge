@@ -1,0 +1,493 @@
+{
+  "u0": {
+    "name": "Account 0 (whvemini@gmail.com)",
+    "email": "whvemini@gmail.com",
+    "convs": {
+      "https://gemini.google.com/app/06763637de4841a3": {
+        "title": "ALIVE Digital Artifact Collection",
+        "url": "https://gemini.google.com/app/06763637de4841a3",
+        "raw_text": "ALIVE Digital Artifact Collection"
+      },
+      "https://gemini.google.com/app/2e11292d6b1a13d3": {
+        "title": "未完成输入求助与引导",
+        "url": "https://gemini.google.com/app/2e11292d6b1a13d3",
+        "raw_text": "未完成输入求助与引导"
+      },
+      "https://gemini.google.com/app/10df175b45434c48": {
+        "title": "SVG 图形序列生成",
+        "url": "https://gemini.google.com/app/10df175b45434c48",
+        "raw_text": "SVG 图形序列生成"
+      },
+      "https://gemini.google.com/app/950f76a163bb2c2d": {
+        "title": "Deep Research 功能位置描述",
+        "url": "https://gemini.google.com/app/950f76a163bb2c2d",
+        "raw_text": "Deep Research 功能位置描述"
+      },
+      "https://gemini.google.com/app/e69218a0ac3c80b2": {
+        "title": "Rust 异步编程精通计划",
+        "url": "https://gemini.google.com/app/e69218a0ac3c80b2",
+        "raw_text": "Rust 异步编程精通计划"
+      },
+      "https://gemini.google.com/app/09111451b2a3702e": {
+        "title": "可控核聚变装置最新进展调研方案",
+        "url": "https://gemini.google.com/app/09111451b2a3702e",
+        "raw_text": "可控核聚变装置最新进展调研方案"
+      },
+      "https://gemini.google.com/app/34ac2c18abe30a4f": {
+        "title": "Casual Greeting",
+        "url": "https://gemini.google.com/app/34ac2c18abe30a4f",
+        "raw_text": "Casual Greeting"
+      },
+      "https://gemini.google.com/app/d9b673b55b41e286": {
+        "title": "量子计算在密码学中的应用前景",
+        "url": "https://gemini.google.com/app/d9b673b55b41e286",
+        "raw_text": "量子计算在密码学中的应用前景"
+      },
+      "https://gemini.google.com/app/232fc8eaf43c7ddd": {
+        "title": "ALIVE 头像风格化优化方案",
+        "url": "https://gemini.google.com/app/232fc8eaf43c7ddd",
+        "raw_text": "ALIVE 头像风格化优化方案"
+      },
+      "https://gemini.google.com/app/9c9c1492218dd22b": {
+        "title": "Friendly Greeting",
+        "url": "https://gemini.google.com/app/9c9c1492218dd22b",
+        "raw_text": "Friendly Greeting"
+      },
+      "https://accounts.google.com/SignOutOptions": {
+        "title": "Google Account: ve wh  \n(whvemini@gmail.com), Google membership",
+        "url": "https://accounts.google.com/SignOutOptions?hl=en-GB&continue=https://gemini.google.com/app/184fea4241323556&ec=GBRAkgU",
+        "raw_text": ""
+      }
+    },
+    "gems": {}
+  },
+  "u1": {
+    "name": "Account 1 (healwoaini@gmail.com)",
+    "email": "healwoaini@gmail.com",
+    "convs": {
+      "https://accounts.google.com/SignOutOptions": {
+        "title": "Google Account: Ve Wh  \n(healwoaini@gmail.com), Google membership",
+        "url": "https://accounts.google.com/SignOutOptions?hl=en&continue=https://gemini.google.com/u/1/app/1b5e68c9dda5acf3%3FpageId%3Dnone&ec=GBRAkgU",
+        "raw_text": ""
+      },
+      "https://gemini.google.com/u/1/app/6753eb9f46473076": {
+        "title": "溫馨問候與協助",
+        "url": "https://gemini.google.com/u/1/app/6753eb9f46473076?pli=1",
+        "raw_text": "溫馨問候與協助"
+      },
+      "https://gemini.google.com/u/1/app/1c316c6c29bd8766": {
+        "title": "软路由与硬路由的区别解析",
+        "url": "https://gemini.google.com/u/1/app/1c316c6c29bd8766?pli=1",
+        "raw_text": "软路由与硬路由的区别解析"
+      },
+      "https://gemini.google.com/u/1/app/628c4d847c3f504e": {
+        "title": "Gene Regulatory Network Inference Optimization",
+        "url": "https://gemini.google.com/u/1/app/628c4d847c3f504e?pli=1",
+        "raw_text": "Gene Regulatory Network Inference Optimization"
+      },
+      "https://gemini.google.com/u/1/app/3f5b580161335845": {
+        "title": "Bioinformatics Algorithm Generalization Research",
+        "url": "https://gemini.google.com/u/1/app/3f5b580161335845?pli=1",
+        "raw_text": "Bioinformatics Algorithm Generalization Research"
+      },
+      "https://gemini.google.com/u/1/app/c54e07dd38856498": {
+        "title": "Autonomous Computational Biology Pipeline",
+        "url": "https://gemini.google.com/u/1/app/c54e07dd38856498?pli=1",
+        "raw_text": "Autonomous Computational Biology Pipeline"
+      },
+      "https://gemini.google.com/u/1/app/2c3a00dda556cdab": {
+        "title": "Bioinformatics Algorithm Failure Analysis",
+        "url": "https://gemini.google.com/u/1/app/2c3a00dda556cdab?pli=1",
+        "raw_text": "Bioinformatics Algorithm Failure Analysis"
+      },
+      "https://gemini.google.com/u/1/app/6b529e0491802c46": {
+        "title": "Multi-Omics Enhancer-Gene Regulatory Inference",
+        "url": "https://gemini.google.com/u/1/app/6b529e0491802c46?pli=1",
+        "raw_text": "Multi-Omics Enhancer-Gene Regulatory Inference"
+      },
+      "https://gemini.google.com/u/1/app/0981998f4b283041": {
+        "title": "孟德尔随机化分析鲁棒性研究",
+        "url": "https://gemini.google.com/u/1/app/0981998f4b283041?pli=1",
+        "raw_text": "孟德尔随机化分析鲁棒性研究"
+      },
+      "https://gemini.google.com/u/1/app/dfc1a78fb71b9a79": {
+        "title": "Feedback-Driven Computational Biology Research Agent",
+        "url": "https://gemini.google.com/u/1/app/dfc1a78fb71b9a79?pli=1",
+        "raw_text": "Feedback-Driven Computational Biology Research Agent"
+      },
+      "https://gemini.google.com/u/1/app/79f907cb5c597a8d": {
+        "title": "Computational Biology Research Discovery",
+        "url": "https://gemini.google.com/u/1/app/79f907cb5c597a8d?pli=1",
+        "raw_text": "Computational Biology Research Discovery"
+      },
+      "https://gemini.google.com/u/1/app/f18af84b3e24d009": {
+        "title": "Computational Biology AI Benchmark",
+        "url": "https://gemini.google.com/u/1/app/f18af84b3e24d009?pli=1",
+        "raw_text": "Computational Biology AI Benchmark"
+      },
+      "https://gemini.google.com/u/1/app/406d5c47710956ee": {
+        "title": "Computational Analysis of Bistability",
+        "url": "https://gemini.google.com/u/1/app/406d5c47710956ee?pli=1",
+        "raw_text": "Computational Analysis of Bistability"
+      },
+      "https://gemini.google.com/u/1/app/26f8ed48746acd28": {
+        "title": "生物信息学研究方向评估",
+        "url": "https://gemini.google.com/u/1/app/26f8ed48746acd28?pli=1",
+        "raw_text": "生物信息学研究方向评估"
+      },
+      "https://gemini.google.com/u/1/app/d80cec2c329e3e50": {
+        "title": "数字生命 SVG 素材生产",
+        "url": "https://gemini.google.com/u/1/app/d80cec2c329e3e50?pli=1",
+        "raw_text": "数字生命 SVG 素材生产"
+      },
+      "https://gemini.google.com/u/1/app/53726c17ca1ed741": {
+        "title": "Interactive Magic Eye Experience",
+        "url": "https://gemini.google.com/u/1/app/53726c17ca1ed741?pli=1",
+        "raw_text": "Interactive Magic Eye Experience"
+      },
+      "https://gemini.google.com/u/1/app/36370a1fbf72541a": {
+        "title": "The Cosmic Tree Interactive Experience",
+        "url": "https://gemini.google.com/u/1/app/36370a1fbf72541a?pli=1",
+        "raw_text": "The Cosmic Tree Interactive Experience"
+      },
+      "https://gemini.google.com/u/1/app/e7ef2ff53f533445": {
+        "title": "The Cosmic Tree Experience",
+        "url": "https://gemini.google.com/u/1/app/e7ef2ff53f533445?pli=1",
+        "raw_text": "The Cosmic Tree Experience"
+      },
+      "https://gemini.google.com/u/1/app/01c376c771ebcf97": {
+        "title": "Gemini 4 Carbon Mechanical Flower",
+        "url": "https://gemini.google.com/u/1/app/01c376c771ebcf97?pli=1",
+        "raw_text": "Gemini 4 Carbon Mechanical Flower"
+      },
+      "https://gemini.google.com/u/1/app/99b9460ffca812ba": {
+        "title": "ALIVE 项目视觉协作体系",
+        "url": "https://gemini.google.com/u/1/app/99b9460ffca812ba?pli=1",
+        "raw_text": "ALIVE 项目视觉协作体系"
+      },
+      "https://gemini.google.com/u/1/app/20e6725972ebec9c": {
+        "title": "ALIVE 视觉风格重绘规范与应用",
+        "url": "https://gemini.google.com/u/1/app/20e6725972ebec9c?pli=1",
+        "raw_text": "ALIVE 视觉风格重绘规范与应用"
+      },
+      "https://gemini.google.com/u/1/app/a31ee48b3309d51c": {
+        "title": "Google Antigravity 429 绕过与恢复方案",
+        "url": "https://gemini.google.com/u/1/app/a31ee48b3309d51c?pli=1",
+        "raw_text": "Google Antigravity 429 绕过与恢复方案"
+      },
+      "https://gemini.google.com/u/1/app/faa33b37847a00d5": {
+        "title": "Google账号注册协助",
+        "url": "https://gemini.google.com/u/1/app/faa33b37847a00d5?pli=1",
+        "raw_text": "Google账号注册协助"
+      },
+      "https://gemini.google.com/u/1/app/855ab1d3612df116": {
+        "title": "韩国OB啤酒玻璃瓶解析",
+        "url": "https://gemini.google.com/u/1/app/855ab1d3612df116?pli=1",
+        "raw_text": "韩国OB啤酒玻璃瓶解析"
+      },
+      "https://gemini.google.com/u/1/app/98c792a660d43632": {
+        "title": "两款洁面慕斯对比选购",
+        "url": "https://gemini.google.com/u/1/app/98c792a660d43632?pli=1",
+        "raw_text": "两款洁面慕斯对比选购"
+      },
+      "https://gemini.google.com/u/1/app/82e17ba7b1a57019": {
+        "title": "五款便利店鲜牛奶选购指南",
+        "url": "https://gemini.google.com/u/1/app/82e17ba7b1a57019?pli=1",
+        "raw_text": "五款便利店鲜牛奶选购指南"
+      },
+      "https://gemini.google.com/u/1/app/89ee866f7586caa1": {
+        "title": "MacBook M1 清新重装与升级指南",
+        "url": "https://gemini.google.com/u/1/app/89ee866f7586caa1?pli=1",
+        "raw_text": "MacBook M1 清新重装与升级指南"
+      },
+      "https://gemini.google.com/u/1/app/21e047827b0e3b52": {
+        "title": "寻找王哲简历参考",
+        "url": "https://gemini.google.com/u/1/app/21e047827b0e3b52?pli=1",
+        "raw_text": "寻找王哲简历参考"
+      },
+      "https://gemini.google.com/u/1/app/8e2a3160c8d61ffe": {
+        "title": "取消iPhone长按侧边栏呼叫Siri方法",
+        "url": "https://gemini.google.com/u/1/app/8e2a3160c8d61ffe?pli=1",
+        "raw_text": "取消iPhone长按侧边栏呼叫Siri方法"
+      },
+      "https://gemini.google.com/u/1/app/ad6c259d0bffbf60": {
+        "title": "舒适无感鞋款选购与推荐",
+        "url": "https://gemini.google.com/u/1/app/ad6c259d0bffbf60?pli=1",
+        "raw_text": "舒适无感鞋款选购与推荐"
+      },
+      "https://gemini.google.com/u/1/app/f15f5738bf68f13b": {
+        "title": "Excel File Data Download",
+        "url": "https://gemini.google.com/u/1/app/f15f5738bf68f13b?pli=1",
+        "raw_text": "Excel File Data Download"
+      },
+      "https://gemini.google.com/u/1/app/fbc732671b953926": {
+        "title": "华中农业大学期刊分级查询",
+        "url": "https://gemini.google.com/u/1/app/fbc732671b953926?pli=1",
+        "raw_text": "华中农业大学期刊分级查询"
+      },
+      "https://gemini.google.com/u/1/app/4de61c5bdc0d5c58": {
+        "title": "关闭iPhone Safari面容识别指南",
+        "url": "https://gemini.google.com/u/1/app/4de61c5bdc0d5c58?pli=1",
+        "raw_text": "关闭iPhone Safari面容识别指南"
+      },
+      "https://gemini.google.com/u/1/app/83b6c959600a8136": {
+        "title": "YouTube 评论无法查看的解决方法",
+        "url": "https://gemini.google.com/u/1/app/83b6c959600a8136?pli=1",
+        "raw_text": "YouTube 评论无法查看的解决方法"
+      },
+      "https://gemini.google.com/u/1/app/522933a9d4334e42": {
+        "title": "Claude 429 报错原因及排查",
+        "url": "https://gemini.google.com/u/1/app/522933a9d4334e42?pli=1",
+        "raw_text": "Claude 429 报错原因及排查"
+      },
+      "https://gemini.google.com/u/1/app/bac35fde2320c26d": {
+        "title": "2026年个人AI生产系统架构研究",
+        "url": "https://gemini.google.com/u/1/app/bac35fde2320c26d?pli=1",
+        "raw_text": "2026年个人AI生产系统架构研究"
+      },
+      "https://gemini.google.com/u/1/app/02b8cd73e32fbda8": {
+        "title": "揭秘自制原子弹幽默文章",
+        "url": "https://gemini.google.com/u/1/app/02b8cd73e32fbda8?pli=1",
+        "raw_text": "揭秘自制原子弹幽默文章"
+      },
+      "https://gemini.google.com/u/1/app/fbc454f2eaa05b44": {
+        "title": "中国女性喜爱男性头像生成",
+        "url": "https://gemini.google.com/u/1/app/fbc454f2eaa05b44?pli=1",
+        "raw_text": "中国女性喜爱男性头像生成"
+      },
+      "https://gemini.google.com/u/1/app/2b024f266b77f936": {
+        "title": "11毫米低维护寸头方案确认",
+        "url": "https://gemini.google.com/u/1/app/2b024f266b77f936?pli=1",
+        "raw_text": "11毫米低维护寸头方案确认"
+      },
+      "https://gemini.google.com/u/1/app/4c88f9491827de06": {
+        "title": "肩背部肌肉刺痛的分析与建议",
+        "url": "https://gemini.google.com/u/1/app/4c88f9491827de06?pli=1",
+        "raw_text": "肩背部肌肉刺痛的分析与建议"
+      },
+      "https://gemini.google.com/u/1/app/cf886f95338b326a": {
+        "title": "雨天出行选防水袜还是潜水袜",
+        "url": "https://gemini.google.com/u/1/app/cf886f95338b326a?pli=1",
+        "raw_text": "雨天出行选防水袜还是潜水袜"
+      },
+      "https://gemini.google.com/u/1/app/7abbf415361fd75d": {
+        "title": "苹果专注模式使用指南",
+        "url": "https://gemini.google.com/u/1/app/7abbf415361fd75d?pli=1",
+        "raw_text": "苹果专注模式使用指南"
+      },
+      "https://gemini.google.com/u/1/app/2bc6a96c4d4405bd": {
+        "title": "高性价比人生指南执行策略",
+        "url": "https://gemini.google.com/u/1/app/2bc6a96c4d4405bd?pli=1",
+        "raw_text": "高性价比人生指南执行策略"
+      },
+      "https://gemini.google.com/u/1/app/a71d6c3c2d7f82ea": {
+        "title": "中国博士生不想毕业的影响",
+        "url": "https://gemini.google.com/u/1/app/a71d6c3c2d7f82ea?pli=1",
+        "raw_text": "中国博士生不想毕业的影响"
+      },
+      "https://gemini.google.com/u/1/app/79d4b6b2608f2173": {
+        "title": "MacBook访问Mac mini方法",
+        "url": "https://gemini.google.com/u/1/app/79d4b6b2608f2173?pli=1",
+        "raw_text": "MacBook访问Mac mini方法"
+      },
+      "https://gemini.google.com/u/1/app/752ed1bcc84b6ca5": {
+        "title": "魔改自媒体ID起名方案",
+        "url": "https://gemini.google.com/u/1/app/752ed1bcc84b6ca5?pli=1",
+        "raw_text": "魔改自媒体ID起名方案"
+      },
+      "https://gemini.google.com/u/1/app/766e008b9a9b1c55": {
+        "title": "新加坡控糖政策核实与解析",
+        "url": "https://gemini.google.com/u/1/app/766e008b9a9b1c55?pli=1",
+        "raw_text": "新加坡控糖政策核实与解析"
+      },
+      "https://gemini.google.com/u/1/app/e7495fdf5cf05e71": {
+        "title": "Mac退货前必须退出Apple ID",
+        "url": "https://gemini.google.com/u/1/app/e7495fdf5cf05e71?pli=1",
+        "raw_text": "Mac退货前必须退出Apple ID"
+      },
+      "https://gemini.google.com/u/1/app/f9da9555c19a8ae0": {
+        "title": "链条节数清点方法",
+        "url": "https://gemini.google.com/u/1/app/f9da9555c19a8ae0?pli=1",
+        "raw_text": "链条节数清点方法"
+      }
+    },
+    "gems": {}
+  },
+  "u2": {
+    "name": "Account 2 (healwve@gmail.com)",
+    "email": "healwve@gmail.com",
+    "convs": {
+      "https://gemini.google.com/u/2/app/9d635d7ec560ca56": {
+        "title": "VS Code Copilot 学生版设置指南",
+        "url": "https://gemini.google.com/u/2/app/9d635d7ec560ca56?pageId=none",
+        "raw_text": "VS Code Copilot 学生版设置指南"
+      },
+      "https://gemini.google.com/u/2/app/651ff4d99e1e954b": {
+        "title": "scChIA-PET 软件架构设计",
+        "url": "https://gemini.google.com/u/2/app/651ff4d99e1e954b?pageId=none",
+        "raw_text": "scChIA-PET 软件架构设计"
+      },
+      "https://gemini.google.com/u/2/app/36d968a6a60979e0": {
+        "title": "AI大模型投资调研方案",
+        "url": "https://gemini.google.com/u/2/app/36d968a6a60979e0?pageId=none",
+        "raw_text": "AI大模型投资调研方案"
+      },
+      "https://gemini.google.com/u/2/app/59eb637f3581d3ee": {
+        "title": "3D 空间表观遗传学研究规划",
+        "url": "https://gemini.google.com/u/2/app/59eb637f3581d3ee?pageId=none",
+        "raw_text": "3D 空间表观遗传学研究规划"
+      },
+      "https://gemini.google.com/u/2/app/f37e3d5f21d618b3": {
+        "title": "肺癌甲基化生物标志物研究方法",
+        "url": "https://gemini.google.com/u/2/app/f37e3d5f21d618b3?pageId=none",
+        "raw_text": "肺癌甲基化生物标志物研究方法"
+      },
+      "https://gemini.google.com/u/2/app/fe7e40d19fc6729f": {
+        "title": "肺癌遗传变异三维调控分析",
+        "url": "https://gemini.google.com/u/2/app/fe7e40d19fc6729f?pageId=none",
+        "raw_text": "肺癌遗传变异三维调控分析"
+      },
+      "https://gemini.google.com/u/2/app/e9c766eaedffbf43": {
+        "title": "GenomeWeaver 3D 软件开发",
+        "url": "https://gemini.google.com/u/2/app/e9c766eaedffbf43?pageId=none",
+        "raw_text": "GenomeWeaver 3D 软件开发"
+      },
+      "https://gemini.google.com/u/2/app/d982030450b400cf": {
+        "title": "Sc-OmniMapper 科研项目深度审计与重构",
+        "url": "https://gemini.google.com/u/2/app/d982030450b400cf?pageId=none",
+        "raw_text": "Sc-OmniMapper 科研项目深度审计与重构"
+      },
+      "https://gemini.google.com/u/2/app/dd52fc741f55cb08": {
+        "title": "生物信息学博士论文架构审计",
+        "url": "https://gemini.google.com/u/2/app/dd52fc741f55cb08?pageId=none",
+        "raw_text": "生物信息学博士论文架构审计"
+      },
+      "https://gemini.google.com/u/2/app/84170b6701586a0c": {
+        "title": "肺癌多组学因果推断分析",
+        "url": "https://gemini.google.com/u/2/app/84170b6701586a0c?pageId=none",
+        "raw_text": "肺癌多组学因果推断分析"
+      },
+      "https://gemini.google.com/u/2/app/5b57dcec04adeb86": {
+        "title": "GEMINI AUTONOMOUS RESEARCH TASK 04 PaperTruth Auditor AI 科研成果真实性、可复现性与发表潜力审计系统 0. 核心使命 构建一个真正可运行的科研审计工具，专门审查 AI 生成的科研项目、论文初稿、分析代码、统计结果、图表和补充材料。 核心问题： 一个看起来完整、专业、结论明确的科研项目，究竟有多少内容得到了真实数据和可复现分析的支持？ 本工具不是论文润色器，不是自动夸赞器，也不是根据格式打分的文档检查器。 它必须尝试寻找错误、验证证据、运行代码、重新计算关键结果，并对无法验证的部分明确标记。 最终目标是帮助研究者判断： * 哪些结果是真实计算得到的； * 哪些结果无法独立复现； * 哪些结论超出了证据； * 哪些问题足以使论文失去可信度； * 哪些项目值得继续投入时间； * 下一步应该修复什么。 不要预设 AI 生成的研究一定有问题，也不要预设其一定有价值。 ⸻ 1. 阶段一：建立审计对象与证据等级 设计统一的审计数据模型，将每条重要科研主张作为一个独立审计对象。 每条主张至少记录： * claim_id * 原始主张文本 * 所属模块 * 主张类型 * 对应原始数据 * 对应分析代码 * 对应结果文件 * 证据来源 * 实际验证方法 * 验证状态 * 问题严重程度 * 修复建议 主张类型至少包括： 1. 文献事实； 2. 数据来源事实； 3. 数据质量描述； 4. 统计结果； 5. 算法性能； 6. 生物学解释； 7. 因果推断； 8. 创新性主张； 9. 论文发表潜力判断。 建立以下证据状态： * VERIFIED：已通过明确的独立检查； * PARTIALLY_VERIFIED：部分内容得到验证，但存在未验证环节； * UNVERIFIED：尚未找到足够证据； * CONTRADICTED：现有证据与主张矛盾； * NOT_TESTABLE：当前条件下无法检验。 重要规则： 没有验证不等于错误；无法访问不等于不存在；代码能够运行不等于科学结论正确。 每个状态都必须附带理由和可追溯证据。 ⸻ 2. 阶段二：真实数据与文献溯源 针对上传的项目目录、论文初稿和补充材料，建立自动化文件清单。 识别： * Markdown、Quarto、PDF、DOCX； * R、Python、Bash、JavaScript 源代码； * CSV、TSV、XLSX； * FASTA、BED、BEDPE、VCF 及常见生物信息学格式； * 图片、森林图、ROC 曲线和统计图； * README、日志、配置文件及测试文件。 为每个文件记录： * 文件路径； * 文件类型； * 大小； * SHA-256 校验值； * 创建或修改信息（仅在实际可获取时）； * 是否被主分析引用； * 是否属于原始数据、派生数据、代码或报告。 接着检查关键科学主张是否有来源。 文献审计 * 验证 DOI、标题、作者和发表年份是否匹配。 * 尽可能通过 Crossref、PubMed、期刊官网或其他可靠来源核实文献。 * 检查论文是否真实存在，是否被撤稿或更正。 * 区分原始研究、综述、预印本和二手引用。 * 检查引用内容是否真正支持对应主张。 * 不得仅凭参考文献格式正确就认定引用真实可靠。 数据集审计 * 核实 accession、数据库名称和文件来源。 * 检查输入文件是否真实存在且能够读取。 * 将论文中报告的样本量与数据中的实际记录数进行比较。 * 核对数据版本、基因组版本、表型定义和研究人群。 * 检查是否将示例数据或模拟数据误认为真实数据。 交付： * audit/file_inventory.tsv * audit/source_verification.tsv * audit/claim_registry.tsv 如果没有联网或文件访问能力，应明确列出未能验证的项目，而不是生成虚假的验证记录。 ⸻ 3. 阶段三：代码真实性与可复现性测试 目标不是简单运行全部脚本，而是检验论文核心结果能否从输入数据重新产生。 3.1 静态检查 检查： * 缺失的依赖； * 不存在的文件路径； * 未定义变量； * 依赖当前工作目录的隐式假设； * 未使用的核心函数； * 被注释掉的分析步骤； * 硬编码结果； * 手工写入的统计数字； * 不可重复的随机过程； * 对外部服务的隐式依赖。 3.2 动态执行 在可用环境中： 1. 建立隔离的运行环境； 2. 检查依赖； 3. 执行测试； 4. 运行最小端到端案例； 5. 保存标准输出、错误输出及退出状态； 6. 对失败步骤定位原因； 7. 修复后重新运行。 任何会删除文件、覆盖原始数据、提交远程任务或消耗大量计算资源的操作，都必须在确认影响范围后进行。 默认只读检查，优先使用小规模真实数据。不得在未经批准的情况下启动昂贵的全量计算。 3.3 核心结果复算 从报告中选取最重要的统计数字，独立复算： * 样本量； * 均值和标准差； * OR、HR、RR 及其置信区间； * P 值与 FDR； * Meta-analysis 合并效应； * AUC、AUPRC 等性能指标； * 生存分析统计量； * MR 效应估计； * 共定位后验概率； * 预测模型的训练与测试划分。 只复算实际存在且数据条件允许的指标。 核对原报告值与复算值之间的差异，并明确数值容差与统计假设。 对于无法获得原始数据或必要中间结果的主张，标记为无法独立复算，不得自行填充缺失数据。 交付： * audit/code_execution_report.md * audit/recomputed_metrics.tsv * logs/audit_execution.log ⸻ 4. 阶段四：统计与机器学习方法审计 根据项目实际使用的方法，选择对应的审计模块。 4.1 常见统计问题 检查： * 样本量与有效样本量； * 缺失数据处理； * 多重检验； * 置信区间计算； * 模型假设； * 混杂因素； * 选择偏倚； * 测量误差； * 异质性； * 统计功效； * 过度解释不显著结果。 4.2 机器学习与预测模型 检查： * 训练集与测试集是否真正独立； * 是否发生数据泄漏； * 是否重复使用测试集调参； * 预处理是否在数据划分前使用了全体数据； * 是否进行了适当的交叉验证； * 基线是否合理； * 指标是否适合任务； * 是否报告不确定性； * 是否存在不公平的模型比较。 4.3 生物信息学与因果推断 按需检查： * 基因组坐标和参考版本； * SNP 等位基因协调； * LD 参考面板与祖源匹配； * RNA-seq 或甲基化数据预处理； * QTL 和 GWAS 样本重叠； * MR 工具变量假设； * SMR、HEIDI 与共定位的解释； * 单细胞或多组学分析中的批次效应； * 3D 染色质互作与靶基因映射的证据链。 不得仅凭方法名称出现过就判断分析正确。需要核查具体实现、参数和数据条件。 交付： * audit/statistical_audit.md * audit/method_specific_findings.tsv ⸻ 5. 阶段五：图表与论文一致性审计 检查论文正文、图表、补充材料与代码是否一致。 至少核对： * 图中样本量是否与方法一致； * 坐标轴和单位是否正确； * 置信区间是否与结果表一致； * 图注是否描述了实际执行的分析； * 是否存在重复或高度相似的图； * 是否使用模拟数据冒充真实结果； * 是否存在不合理的截断、选择性展示或误导性配色； * 论文中的数字是否能追溯到结果文件； * 补充材料是否包含关键方法细节。 为每张主要图建立来源映射： Figure → Source data → Analysis script → Statistical result → Manuscript claim 交付： * audit/figure_provenance.tsv * audit/manuscript_consistency.tsv ⸻ 6. 阶段六：科学结论与创新性审计 采用独立审稿人视角，逐条评估核心结论。 对每项结论回答： 1. 数据是否直接支持该结论？ 2. 是否存在合理的替代解释？ 3. 是否混淆了相关性与因果性？ 4. 是否遗漏关键对照或基线？ 5. 是否存在选择性报告？ 6. 是否能在独立数据或文献中验证？ 7. 结论的适用范围是否超出数据范围？ 创新性审计： * 搜索并核实最接近的既有工作； * 对比研究问题、数据、方法、验证和主要发现； * 区分方法创新、数据整合创新、应用创新和单纯重复分析； * 明确哪些创新性判断仍缺乏证据。 发表潜力评估： * 研究问题的重要性； * 设计与方法是否匹配； * 结果是否可靠； * 验证是否充分； * 创新性是否成立； * 研究局限性是否可接受； * 与目标期刊范围的匹配程度。 不得承诺论文一定发表，也不得仅根据图表美观或报告篇幅判断研究质量。 交付： * audit/scientific_claim_audit.md * audit/novelty_assessment.md * audit/publication_readiness.md ⸻ 7. 阶段七：严重性排序与修复 将问题分为： * Critical：核心结果或结论不可信； * Major：明显影响研究可信度或可发表性； * Moderate：影响解释或复现能力； * Minor：格式、表达或工程改进。 每个问题必须包含： * 问题 ID； * 对应文件或主张； * 可验证的证据； * 影响； * 修复建议； * 修复成本； * 修复后需要重新执行的测试。 优先处理 Critical 与 Major 问题。 不要为了让审计报告看起来成功而降低问题严重程度。 对于可以自动修复的代码问题，在副本中修复，并重新运行受影响的测试。对于需要研究者决定的科学问题，给出明确选项和所需证据，不得擅自改变研究假设或筛选标准。 交付： * audit/findings.tsv * audit/remediation_plan.md * audit/retest_report.md ⸻ 8. 阶段八：实现可重复使用的审计工具 将一次性审计流程封装为可重复使用的工具。 建议项目结构： PaperTruth-Auditor/ ├── README.md ├── config.yaml ├── src/ ├── tests/ ├── audit/ ├── reports/ └── logs/ 至少实现以下功能： 1. 文件清单生成； 2. 科学主张登记； 3. 文献与数据来源核验记录； 4. 代码执行与日志采集； 5. 结果复算； 6. 图表与论文一致性检查； 7. 问题分级； 8. 审计报告生成。 优先提供命令行接口，例如： papertruth inventory ./project papertruth audit ./project papertruth report ./project 以上命令是目标接口，必须根据实际实现提供真实可运行的代码，不得仅在 README 中列出不存在的命令。 如果有余力，再实现一个本地 HTML 报告界面，支持按严重程度查看问题、定位文件和追踪修复状态。 默认不把用户的私有科研文件上传到外部服务。需要调用外部模型或联网检索时，应明确标识涉及的数据和操作。 ⸻ 9. 阶段九：使用真实科研项目进行压力测试 选择一个可访问的科研项目进行测试。 优先使用已经完成的分析项目或公开数据研究；如果用户提供了多个项目，先建立只读清单，再选择一个核心案例。 测试必须覆盖： * 一个能够通过的真实主张； * 一个缺乏证据支持的主张； * 一个统计数字不一致的案例； * 一个依赖缺失文件的案例； * 一个代码无法执行的案例； * 一个可能存在因果解释过度的案例。 如果没有现成的真实错误案例，可以在测试副本中人工注入受控错误，验证工具能否识别。 人工注入的错误必须明确标记为测试构造，不得污染真实科研结果。 评价指标包括： * 问题检出情况； * 误报与漏报； * 证据追溯完整度； * 复算成功率； * 测试环境与真实环境的差异。 交付： * tests/stress_test_report.md * results/audit_benchmark.tsv ⸻ 10. 最终交付 提供： 1. 可下载的完整工具源码包； 2. 安装与运行说明； 3. 实际运行日志； 4. 一份真实项目的审计报告； 5. 问题清单与修复建议； 6. 结果复算表； 7. 工具自身的测试报告； 8. 对当前能力边界的说明。 完成标准： * 至少一个真实项目完成审计； * 至少一项关键结果被独立复算，或明确记录无法复算的原因； * 至少一条科学主张具有完整证据追溯； * 工具能够识别至少一种真实问题，或者通过受控测试证明具备相应检测能力； * 不得把文件数量、测试构造结果或格式完整度当作科研正确性的证明。 现在开始执行。先检查可用环境与项目文件，再建立文件清单，选择最小审计案例并实际运行。不要只生成设计方案。遇到不可验证的主张时，应将其列为审计发现，而不是自行推断其为真。",
+        "url": "https://gemini.google.com/u/2/app/5b57dcec04adeb86?pageId=none",
+        "raw_text": "GEMINI AUTONOMOUS RESEARCH TASK 04 PaperTruth Auditor AI 科研成果真实性、可复现性与发表潜力审计系统 0. 核心使命 构建一个真正可运行的科研审"
+      },
+      "https://gemini.google.com/u/2/app/6e14f20b80cdfaf2": {
+        "title": "表观遗传时钟与肿瘤风险评价",
+        "url": "https://gemini.google.com/u/2/app/6e14f20b80cdfaf2?pageId=none",
+        "raw_text": "表观遗传时钟与肿瘤风险评价"
+      },
+      "https://gemini.google.com/u/2/app/222e2aae56c1d54b": {
+        "title": "德语口语学习指南与实操",
+        "url": "https://gemini.google.com/u/2/app/222e2aae56c1d54b?pageId=none",
+        "raw_text": "德语口语学习指南与实操"
+      },
+      "https://gemini.google.com/u/2/app/0d155a036a68a9a3": {
+        "title": "Pan-Cancer Genetic Risk Assessment",
+        "url": "https://gemini.google.com/u/2/app/0d155a036a68a9a3?pageId=none",
+        "raw_text": "Pan-Cancer Genetic Risk Assessment"
+      },
+      "https://gemini.google.com/u/2/app/6c801421dc189ae5": {
+        "title": "Integrative Epigenomic Analysis of Chromatin",
+        "url": "https://gemini.google.com/u/2/app/6c801421dc189ae5?pli=1",
+        "raw_text": "Integrative Epigenomic Analysis of Chromatin"
+      },
+      "https://gemini.google.com/u/2/app/93a34235a9f521c9": {
+        "title": "Interactive Algorithmic Behavior Laboratory",
+        "url": "https://gemini.google.com/u/2/app/93a34235a9f521c9?pli=1",
+        "raw_text": "Interactive Algorithmic Behavior Laboratory"
+      },
+      "https://gemini.google.com/u/2/app/1bd6c2aa4ec4f155": {
+        "title": "ALIVE 科幻 SVG 批量生成压力测试",
+        "url": "https://gemini.google.com/u/2/app/1bd6c2aa4ec4f155?pli=1",
+        "raw_text": "ALIVE 科幻 SVG 批量生成压力测试"
+      },
+      "https://gemini.google.com/u/2/app/6e13e54534a2f07f": {
+        "title": "虾仁动漫自动化系统构建",
+        "url": "https://gemini.google.com/u/2/app/6e13e54534a2f07f?pli=1",
+        "raw_text": "虾仁动漫自动化系统构建"
+      },
+      "https://gemini.google.com/u/2/app/3c5016412bca457b": {
+        "title": "ALIVE 数字艺术宇宙构建",
+        "url": "https://gemini.google.com/u/2/app/3c5016412bca457b?pli=1",
+        "raw_text": "ALIVE 数字艺术宇宙构建"
+      },
+      "https://gemini.google.com/u/2/app/d96b5bfd49307a67": {
+        "title": "顶格 SVG 设计工程化体系",
+        "url": "https://gemini.google.com/u/2/app/d96b5bfd49307a67?pli=1",
+        "raw_text": "顶格 SVG 设计工程化体系"
+      },
+      "https://gemini.google.com/u/2/app/852213b8725fa1b1": {
+        "title": "Research OS 科研生产系统",
+        "url": "https://gemini.google.com/u/2/app/852213b8725fa1b1?pli=1",
+        "raw_text": "Research OS 科研生产系统"
+      },
+      "https://gemini.google.com/u/2/app/57e0ad6be0617193": {
+        "title": "Capital OS 个人财富系统",
+        "url": "https://gemini.google.com/u/2/app/57e0ad6be0617193?pli=1",
+        "raw_text": "Capital OS 个人财富系统"
+      },
+      "https://gemini.google.com/u/2/app/0e954d69f1ecb92d": {
+        "title": "Body OS 个人健身管理系统",
+        "url": "https://gemini.google.com/u/2/app/0e954d69f1ecb92d?pli=1",
+        "raw_text": "Body OS 个人健身管理系统"
+      },
+      "https://gemini.google.com/u/2/app/fe2e0514399a70ee": {
+        "title": "ALIVE 项目数字化动画系统",
+        "url": "https://gemini.google.com/u/2/app/fe2e0514399a70ee?pli=1",
+        "raw_text": "ALIVE 项目数字化动画系统"
+      },
+      "https://accounts.google.com/SignOutOptions": {
+        "title": "Google Account: ve wh  \n(healwve@gmail.com), Google membership",
+        "url": "https://accounts.google.com/SignOutOptions?hl=en&continue=https://gemini.google.com/u/2/app/184fea4241323556%3FpageId%3Dnone&ec=GBRAkgU",
+        "raw_text": ""
+      },
+      "https://gemini.google.com/u/2/app/184fea4241323556": {
+        "title": "科研论文项目管理系统开发",
+        "url": "https://gemini.google.com/u/2/app/184fea4241323556?pageId=none",
+        "raw_text": "科研论文项目管理系统开发"
+      },
+      "https://gemini.google.com/u/2/app/89c3a12a840d3e12": {
+        "title": "FDE Agent Prototype Development",
+        "url": "https://gemini.google.com/u/2/app/89c3a12a840d3e12?pageId=none",
+        "raw_text": "FDE Agent Prototype Development"
+      },
+      "https://gemini.google.com/u/2/app/991a3fba4ca60b24": {
+        "title": "SkillForge AI 技能编译器开发",
+        "url": "https://gemini.google.com/u/2/app/991a3fba4ca60b24?pageId=none",
+        "raw_text": "SkillForge AI 技能编译器开发"
+      },
+      "https://gemini.google.com/u/2/app/3cce004921ac6c67": {
+        "title": "探讨3D Mapping应用方向",
+        "url": "https://gemini.google.com/u/2/app/3cce004921ac6c67?pageId=none",
+        "raw_text": "探讨3D Mapping应用方向"
+      },
+      "https://gemini.google.com/u/2/app/8254f2dfa1c0b887": {
+        "title": "孟德尔随机化科研进展回顾",
+        "url": "https://gemini.google.com/u/2/app/8254f2dfa1c0b887?pageId=none",
+        "raw_text": "孟德尔随机化科研进展回顾"
+      },
+      "https://gemini.google.com/u/2/app/3c281f8b746051e8": {
+        "title": "科研问题回顾与后续推进",
+        "url": "https://gemini.google.com/u/2/app/3c281f8b746051e8?pageId=none",
+        "raw_text": "科研问题回顾与后续推进"
+      },
+      "https://gemini.google.com/u/2/app/722a991736738e39": {
+        "title": "Connection Hunter Development Project",
+        "url": "https://gemini.google.com/u/2/app/722a991736738e39?pageId=none",
+        "raw_text": "Connection Hunter Development Project"
+      },
+      "https://gemini.google.com/u/2/app/d0ccda5ba0c5de5c": {
+        "title": "Sales Hunter Development",
+        "url": "https://gemini.google.com/u/2/app/d0ccda5ba0c5de5c?pageId=none",
+        "raw_text": "Sales Hunter Development"
+      },
+      "https://gemini.google.com/u/2/app/d8a38e8fa166a7c6": {
+        "title": "Career Hunter Development Project",
+        "url": "https://gemini.google.com/u/2/app/d8a38e8fa166a7c6?pageId=none",
+        "raw_text": "Career Hunter Development Project"
+      }
+    },
+    "gems": {}
+  }
+}

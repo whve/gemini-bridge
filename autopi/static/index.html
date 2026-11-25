@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AutoPi — 24小时数字员工自主迭代与老板监工前台</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
+    code, pre, .font-mono { font-family: 'JetBrains Mono', monospace; }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col">
+
+  <!-- Top Supervisor Bar -->
+  <header class="bg-slate-900 border-b border-slate-800 px-6 py-4 flex flex-wrap items-center justify-between gap-4">
+    <div class="flex items-center gap-3">
+      <div id="statusDot" class="w-3.5 h-3.5 rounded-full bg-emerald-400 animate-pulse"></div>
+      <div>
+        <h1 class="text-lg font-bold tracking-tight text-white flex items-center gap-2">
+          <span>AutoPi Autonomy Hub</span>
+          <span class="text-xs px-2 py-0.5 rounded bg-indigo-950 text-indigo-300 border border-indigo-700">24/7 Digital Employee</span>
+        </h1>
+        <p class="text-xs text-slate-400">双智能体自驱动循环 (Director ⇄ Worker) · 异常自愈恢复 · 零人工轮询</p>
+      </div>
+    </div>
+
+    <!-- Supervisor Controls -->
+    <div class="flex items-center gap-2">
+      <button id="btnPause" onclick="togglePause()" class="px-3 py-1.5 bg-amber-600 hover:bg-amber-500 text-white rounded text-xs font-semibold shadow transition">
+        ⏸️ 暂停循环
+      </button>
+      <button id="btnStop" onclick="emergencyStop()" class="px-3 py-1.5 bg-rose-700 hover:bg-rose-600 text-white rounded text-xs font-semibold shadow transition">
+        🛑 紧急阻断
+      </button>
+      <div class="text-xs bg-slate-800 px-3 py-1.5 rounded border border-slate-700 text-slate-300 font-mono">
+        轮次: <span id="roundCount" class="font-bold text-white">0</span> | 崩溃自愈: <span id="crashCount" class="text-emerald-400">0</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="flex-1 max-w-7xl w-full mx-auto p-6 grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+    <!-- Left Column: Master Goal & Boss Intervention -->
+    <div class="space-y-6 lg:col-span-1">
+      
+      <!-- Master Goal Card -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-5 shadow-lg">
+        <div class="flex items-center justify-between mb-3">
+          <span class="text-xs font-semibold uppercase tracking-wider text-indigo-400">当前主战目标 (Master Goal)</span>
+          <span id="goalBadge" class="text-xs px-2 py-0.5 rounded bg-emerald-950 text-emerald-300 border border-emerald-700 font-mono">ACTIVE</span>
+        </div>
+        <h2 id="goalTitle" class="text-base font-bold text-white mb-2 leading-snug">正在加载目标...</h2>
+        <p id="goalDesc" class="text-xs text-slate-400 mb-4 leading-relaxed">目标描述</p>
+        
+        <!-- Progress Bar -->
+        <div class="space-y-1">
+          <div class="flex justify-between text-xs font-mono text-slate-400">
+            <span>完成进度</span>
+            <span id="goalPct" class="text-indigo-400 font-bold">0%</span>
+          </div>
+          <div class="w-full bg-slate-800 h-2.5 rounded-full overflow-hidden">
+            <div id="goalBar" class="bg-indigo-500 h-full transition-all duration-500" style="width: 0%"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Boss Intervene Card (Owner Override) -->
+      <section class="bg-slate-900 border border-indigo-900/60 rounded-xl p-5 shadow-lg space-y-3">
+        <div class="flex items-center gap-2">
+          <span class="text-sm">👑</span>
+          <h3 class="text-sm font-bold text-indigo-300">老板随时插话 (Boss Priority Directive)</h3>
+        </div>
+        <p class="text-xs text-slate-400">
+          任何时刻输入指令，系统将在下一个自驱节拍中将此意图强行注入指挥链，无需叫停程序即可调整执行方向。
+        </p>
+        <div class="space-y-2">
+          <textarea id="bossInput" rows="2" placeholder="例如：暂停当前细节编写，优先把 X 模块的自动化测试脚本跑通..." class="w-full bg-slate-950 border border-slate-800 rounded p-2 text-xs text-white focus:outline-none focus:border-indigo-500"></textarea>
+          <div class="flex justify-between items-center">
+            <label class="text-xs text-slate-400 flex items-center gap-1.5">
+              <input type="checkbox" id="bossCritical" checked class="rounded bg-slate-800 border-slate-700 text-indigo-600 focus:ring-0">
+              最高优先级 (Critical)
+            </label>
+            <button onclick="submitBossIntervene()" class="px-3 py-1 bg-indigo-600 hover:bg-indigo-500 text-white rounded text-xs font-semibold transition">
+              发送指令 ↵
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sub-Tasks Roadmap -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-5 shadow-lg">
+        <h3 class="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-3">执行路线图 (Roadmap Backlog)</h3>
+        <div id="tasksList" class="space-y-2.5 text-xs max-h-80 overflow-y-auto pr-1">
+          <div class="text-slate-500 italic">暂无任务...</div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Right 2 Columns: Live Dual-Agent Feed & Artifacts -->
+    <div class="space-y-6 lg:col-span-2">
+
+      <!-- Live Stream Feed -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-5 shadow-lg flex flex-col h-[520px]">
+        <div class="flex items-center justify-between pb-3 border-b border-slate-800 mb-3">
+          <div class="flex items-center gap-2">
+            <span class="text-sm">⚡</span>
+            <h3 class="text-sm font-bold text-white">双智能体自驱动执行直播流 (Live Dialogue & Telemetry)</h3>
+          </div>
+          <span class="text-xs text-slate-400 font-mono">Auto-polling: 2s</span>
+        </div>
+
+        <!-- Scrollable Feed Content -->
+        <div id="feedStream" class="flex-1 overflow-y-auto space-y-3 font-mono text-xs pr-2">
+          <div class="text-slate-500 italic p-4 text-center">系统正在自驱动轮询中...</div>
+        </div>
+      </section>
+
+      <!-- Artifacts Vault -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-5 shadow-lg">
+        <div class="flex items-center justify-between mb-3">
+          <h3 class="text-xs font-semibold uppercase tracking-wider text-slate-400">产出资产保险箱 (Artifacts Vault)</h3>
+          <span id="artCountBadge" class="text-xs px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono">0 个文件</span>
+        </div>
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs font-mono">
+            <thead class="bg-slate-950 text-slate-400 border-b border-slate-800">
+              <tr>
+                <th class="py-2 px-3">文件路径</th>
+                <th class="py-2 px-3">大小</th>
+                <th class="py-2 px-3">SHA-256 哈希</th>
+                <th class="py-2 px-3">生成时间</th>
+              </tr>
+            </thead>
+            <tbody id="artifactsTbody" class="divide-y divide-slate-800 text-slate-300">
+              <tr><td colspan="4" class="py-3 px-3 text-slate-500 italic">暂无生成的产出文件</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+    </div>
+
+  </main>
+
+  <!-- Script logic -->
+  <script>
+    let isPaused = false;
+
+    async function poll() {
+      try {
+        const res = await fetch('/api/status');
+        const json = await res.json();
+        if (json.ok && json.data) {
+          updateUI(json.data);
+        }
+      } catch (e) {
+        console.error("Poll error:", e);
+      }
+    }
+
+    function updateUI(data) {
+      // Status dot & buttons
+      const dot = document.getElementById('statusDot');
+      const btnPause = document.getElementById('btnPause');
+      if (data.loop_status === 'paused') {
+        dot.className = "w-3.5 h-3.5 rounded-full bg-amber-400";
+        btnPause.innerText = "▶️ 恢复自驱运行";
+        btnPause.className = "px-3 py-1.5 bg-emerald-600 hover:bg-emerald-500 text-white rounded text-xs font-semibold shadow transition";
+        isPaused = true;
+      } else if (data.loop_status === 'emergency_stopped') {
+        dot.className = "w-3.5 h-3.5 rounded-full bg-rose-500";
+        btnPause.innerText = "🛑 已阻断";
+      } else {
+        dot.className = "w-3.5 h-3.5 rounded-full bg-emerald-400 animate-pulse";
+        btnPause.innerText = "⏸️ 暂停循环";
+        btnPause.className = "px-3 py-1.5 bg-amber-600 hover:bg-amber-500 text-white rounded text-xs font-semibold shadow transition";
+        isPaused = false;
+      }
+
+      document.getElementById('roundCount').innerText = data.iteration_count;
+      document.getElementById('crashCount').innerText = data.consecutive_crashes;
+
+      // Master Goal
+      if (data.active_goal) {
+        document.getElementById('goalTitle').innerText = data.active_goal.title;
+        document.getElementById('goalDesc').innerText = data.active_goal.description;
+        document.getElementById('goalPct').innerText = (data.active_goal.progress_pct || 0) + '%';
+        document.getElementById('goalBar').style.width = (data.active_goal.progress_pct || 0) + '%';
+      }
+
+      // Recent Iterations
+      const stream = document.getElementById('feedStream');
+      if (data.recent_iterations && data.recent_iterations.length > 0) {
+        stream.innerHTML = data.recent_iterations.map(it => {
+          const isPass = it.verdict === 'pass';
+          const badgeClass = isPass ? 'bg-emerald-950 text-emerald-300 border-emerald-700' : 'bg-amber-950 text-amber-300 border-amber-700';
+          const d = it.director_directive || {};
+          const w = it.worker_telemetry || {};
+          return `
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800 space-y-2">
+              <div class="flex items-center justify-between">
+                <span class="font-bold text-slate-200">轮次 #${it.round_num}: ${d.title || '任务执行'}</span>
+                <span class="px-2 py-0.5 rounded border text-[10px] ${badgeClass}">${it.verdict.toUpperCase()} (${it.duration_sec}s)</span>
+              </div>
+              <div class="text-slate-400 text-[11px] leading-relaxed">
+                <span class="text-indigo-400 font-semibold">[Director 指挥]</span> ${d.description || ''}
+              </div>
+              <div class="bg-slate-900 p-2 rounded text-[11px] text-slate-300 overflow-x-auto max-h-24">
+                <span class="text-emerald-400 font-semibold">[Worker 结果]</span>\n${w.stdout || w.stderr || '执行完成'}
+              </div>
+            </div>
+          `;
+        }).join('');
+      }
+
+      // Fetch Tasks
+      fetchTasks();
+      fetchArtifacts();
+    }
+
+    async function fetchTasks() {
+      try {
+        const res = await fetch('/api/tasks');
+        const json = await res.json();
+        if (json.ok && json.tasks) {
+          const c = document.getElementById('tasksList');
+          c.innerHTML = json.tasks.map(t => {
+            const isDone = t.status === 'completed';
+            const icon = isDone ? '✅' : (t.status === 'running' ? '⏳' : '⭕');
+            const color = isDone ? 'text-slate-400 line-through' : (t.status === 'running' ? 'text-indigo-300 font-semibold' : 'text-slate-300');
+            return `
+              <div class="p-2 rounded bg-slate-950/70 border border-slate-800 flex items-start gap-2">
+                <span>${icon}</span>
+                <div class="flex-1">
+                  <div class="${color}">${t.title}</div>
+                  <div class="text-[10px] text-slate-500">${t.task_type}</div>
+                </div>
+              </div>
+            `;
+          }).join('');
+        }
+      } catch (e) {}
+    }
+
+    async function fetchArtifacts() {
+      try {
+        const res = await fetch('/api/artifacts');
+        const json = await res.json();
+        if (json.ok && json.artifacts) {
+          document.getElementById('artCountBadge').innerText = json.artifacts.length + ' 个文件';
+          const tbody = document.getElementById('artifactsTbody');
+          if (json.artifacts.length > 0) {
+            tbody.innerHTML = json.artifacts.map(a => `
+              <tr class="hover:bg-slate-900/60">
+                <td class="py-2 px-3 font-semibold text-white">${a.file_path}</td>
+                <td class="py-2 px-3 text-slate-400">${(a.file_size / 1024).toFixed(1)} KB</td>
+                <td class="py-2 px-3 text-slate-500 font-mono">${(a.sha256 || '').slice(0, 12)}...</td>
+                <td class="py-2 px-3 text-slate-400 text-[10px]">${a.created_at.slice(11, 19)}</td>
+              </tr>
+            `).join('');
+          }
+        }
+      } catch (e) {}
+    }
+
+    async function togglePause() {
+      const endpoint = isPaused ? '/api/control/resume' : '/api/control/pause';
+      await fetch(endpoint, { method: 'POST' });
+      poll();
+    }
+
+    async function emergencyStop() {
+      if (confirm("确定要紧急阻断当前全部执行进程吗？")) {
+        await fetch('/api/control/stop', { method: 'POST' });
+        poll();
+      }
+    }
+
+    async function submitBossIntervene() {
+      const text = document.getElementById('bossInput').value.trim();
+      const isCrit = document.getElementById('bossCritical').checked;
+      if (!text) return;
+      await fetch('/api/control/intervene', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ instruction: text, priority: isCrit ? 'critical' : 'normal' })
+      });
+      document.getElementById('bossInput').value = '';
+      alert("✅ 指令已成功插入指挥上下文！将在下一个节拍强制生效。");
+      poll();
+    }
+
+    setInterval(poll, 2000);
+    poll();
+  </script>
+</body>
+</html>

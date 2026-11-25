@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Local runtime data & logs (never commit user tasks or session data)
+data/tasks.db
+data/tasks.db-journal
+data/tasks.db-wal
+data/tasks.db-shm
+data/logs/*.log
+results/deep-research/*
+results/app-tasks/*
+!results/deep-research/.gitkeep
+!results/app-tasks/.gitkeep
+
+# Local configuration & browser profiles
+config.yaml
+.env
+chrome-profile/
+.pytest_cache/
+
+# Local environment and caches
+.venv/
+.pytest_cache/
+.trash/
+*.pyc
+__pycache__/
+*.log
+autopi.log
+data/*.db
+data/logs/*.log
+config.yaml
+.DS_Store
