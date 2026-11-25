@@ -38,3 +38,9 @@ chrome-profile/
 .pytest_cache/
 .trash/
 .DS_Store
+
+# AutoPi local state & sensitive account/session dumps
+.autopi/
+tools/*.json
+*extracted_accounts*.json
+*all_accounts*.json
