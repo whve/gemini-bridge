@@ -14,31 +14,27 @@ dist/
 *.egg-info/
 
 # Local runtime data & logs (never commit user tasks or session data)
+data/*.db
 data/tasks.db
 data/tasks.db-journal
 data/tasks.db-wal
 data/tasks.db-shm
 data/logs/*.log
+*.log
+autopi.log
 results/deep-research/*
 results/app-tasks/*
 !results/deep-research/.gitkeep
 !results/app-tasks/.gitkeep
+downloads/*
+!downloads/.gitkeep
+downloads_test/*
+!downloads_test/.gitkeep
 
-# Local configuration & browser profiles
+# Local configuration, caches & OS files
 config.yaml
 .env
 chrome-profile/
 .pytest_cache/
-
-# Local environment and caches
-.venv/
-.pytest_cache/
 .trash/
-*.pyc
-__pycache__/
-*.log
-autopi.log
-data/*.db
-data/logs/*.log
-config.yaml
 .DS_Store

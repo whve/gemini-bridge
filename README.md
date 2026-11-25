@@ -1,6 +1,43 @@
 # Gemini Bridge (`gemini-bridge`)
 
-本地 AI 任务桥接工具：在 **macOS (Ventura 及更新版本)** 与 Linux 环境中，将本地 AI Agent（如 Claude Code、Codex、Cursor）生成的深度研究或工作流任务桥接至 **Gemini Deep Research** 与 **Gemini App Tasks**，自动在后台跟踪状态并将完整报告、引用来源与元数据同步到本地文件系统。
+> **MIT License** · **Python 3.11+** · **macOS & Linux** · **Crafted by ve & Her**
+
+### 项目定位
+
+`gemini-bridge` 是面向本地 AI Agent（Claude Code、Codex、Cursor 等）的任务桥接中间件，打通本地编码工作流与云端 **Gemini Deep Research** / **Gemini App Tasks**：
+
+- **双后端无缝切换**：优先通过 Playwright 复用本地持久化 Chrome 会话（零侵入复用网页端订阅配额），并支持官方 Gemini Interactions API 作为无浏览器备选后端。
+- **异步后台状态机**：基于 SQLite（WAL 模式）管理长耗时任务队列、防重保护与孤儿进程安全恢复。
+- **原生 CLI + 零依赖 MCP Server**：内置标准 JSON-RPC 2.0 STDIO MCP 服务与 `--json` 结构化输出，开箱即插主流 AI 编程助手。
+- **本地产物自动同步**：任务完成后自动落盘完整的 `report.md`、`sources.md`、`metadata.json` 与脱敏 `task.log`。
+
+### ⚡ 极速 30 秒上手指南（Quickstart）
+
+1. **安装环境并初始化配置**
+
+```bash
+git clone https://github.com/whve/gemini-bridge.git && cd gemini-bridge
+python3 -m venv .venv && source .venv/bin/activate
+pip install -e ".[browser]" && playwright install chromium
+cp config.example.yaml config.yaml
+```
+
+2. **启动独立 Chrome 会话登录 Gemini 并自检**
+
+```bash
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome \
+  --remote-debugging-port=9222 \
+  --user-data-dir="$HOME/.gemini-bridge/chrome-profile" \
+  "https://gemini.google.com/app"
+# 在弹出窗口完成 Google 登录后，验证就绪状态：
+gemini-bridge doctor
+```
+
+3. **提交首个深度研究任务**
+
+```bash
+gemini-bridge submit --mode deep-research --prompt "调研 2026 年主流 AI Coding Agent 架构演进并附带引用来源"
+```
 
 ---
 
@@ -22,6 +59,7 @@
 ```text
 gemini-bridge/
 ├── README.md
+├── LICENSE
 ├── pyproject.toml
 ├── config.example.yaml
 ├── .gitignore
